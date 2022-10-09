@@ -39,3 +39,20 @@ button {
 .p-1 {
   padding: 1px;
 }
+
+.row {
+  display: flex;
+
+  .col {
+    flex: 1 1 auto;
+
+    &:not(.col:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
+
+input {
+  display: block;
+  margin: 5px;
+}
